@@ -1,3 +1,3 @@
-import sayHello from './modules/say';
+import copyright from './modules/copyright';
 
-console.log(sayHello('World!'));
+copyright();

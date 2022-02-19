@@ -123,7 +123,7 @@ blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -158,7 +158,6 @@ button {
   border: none;
   background: none;
   padding: 0;
-  -webkit-appearance: none;
   cursor: pointer;
 }
 

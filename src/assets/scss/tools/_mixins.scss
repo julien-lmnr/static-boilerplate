@@ -1,4 +1,4 @@
-// Chaînes de caractères
+/* Chaînes de caractères */
 @function str-replace($string, $search, $replace: "") {
   $index: str-index($string, $search);
 
@@ -9,7 +9,7 @@
   @return $string;
 }
 
-// Typographies
+/* Typographies */
 @mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
   $src: null;
 
@@ -38,7 +38,7 @@
   }
 }
 
-// Responsive
+/* Responsive */
 @function strip-unit($number) {
   @if type-of($number) == 'number' and not unitless($number) {
     @return $number / ($number * 0 + 1);
@@ -72,7 +72,7 @@
   }
 }
 
-// Espacements
+/* Espacements */
 $space: 8px;
 
 @function space($i) {
